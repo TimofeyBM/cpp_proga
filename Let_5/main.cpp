@@ -12,7 +12,7 @@ struct Factorial<0> {
 };
 template<>
 struct Factorial<1> {
-    static const size_t value = 1;
+    static const int value = 1;
 };
 template<int a>
 struct FactorialE;
